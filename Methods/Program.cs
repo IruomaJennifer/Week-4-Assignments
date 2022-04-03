@@ -7,7 +7,13 @@ namespace Methods
     {
         static void Main(string[] args)
         {
-            
+            //GetQuadraticRoots();
+           // int f = GetFactorial(5);
+           // string s = GetWordNumber(5);
+           //int t = TotalNumberOfChars(" Cat");
+           // Console.WriteLine(f);
+           // Console.WriteLine(s);
+           // Console.WriteLine(t);
         }
         static void GetQuadraticRoots()
         {
@@ -30,6 +36,7 @@ namespace Methods
             }
             Console.WriteLine($"The roots of the equation are {{{x1},{x2}}}");
         }
+
         static int GetFactorial(int number)
         {
             int factorial = 1;
@@ -41,6 +48,7 @@ namespace Methods
             return factorial;
 
         }
+
         static string GetWordNumber(int number)
         {
             string wordNumber;
@@ -54,6 +62,7 @@ namespace Methods
                 return "Please enter a number between 1 and 100";
             }
         }
+
         static int TotalNumberOfChars(string stringValue)
         {
             return stringValue.Length;
